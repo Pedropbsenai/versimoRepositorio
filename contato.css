@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+}
+
+.titulo {
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: -1.5px;
+  align-items: first baseline;
+  text-align: center;
+  margin-bottom: 140px;
+  margin-top: 56px;
+}
+
+body {
+  background: linear-gradient(121deg, #FF21D1 42.23%, #990079 71.8%);
+}
+
+.form {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins;
+  gap: 10px;
+}
+
+
+.botaoenviar {
+  background-color: #4C023D;
+  color: azure;
+  width: 168px;
+  height: 62px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-family: Poppins;
+}
+
+.botaoemail {
+  background: #FFB2EF;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 424px;
+  height: 49px;
+  align-items: center;
+  gap: 10px;
+  background: #FFB2EF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+}
+
+.botaonome {
+  background: #FFB2EF;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 424px;
+  height: 49px;
+  align-items: center;
+  gap: 10px;
+  background: #FFB2EF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+}
+
+.botaocidade {
+  background: #FFB2EF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 424px;
+  height: 49px;
+  align-items: center;
+  gap: 10px;
+  background: #FFB2EF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+
+}
+
+.mapa {
+  width: 480px;
+}
+
+.endereco {
+  color: azure;
+}
+
+.contato {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.menu {
+  background-color: #00CFC8;
+  display: flex;
+  padding: 8px 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins;
+}
+
+
+.logo img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  transition: border 0.3s;
+}
+
+
+.logo:hover {
+  border: 1px solid #009994;
+}
+
+
+.infos ul {
+  list-style: none;
+  display: flex;
+  gap: 328px;
+}
+
+.butao {
+  color: #4D023D;
+  background-color: #00CFC8;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  transition-duration: 0.4ms;
+  font-family: Poppins;
+}
+
+.butao:hover {
+  color: #B3058F;
+}
+
+footer {
+  background-color: #660051;
+  align-items: center;
+  padding: 8px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logobranca {
+  width: 100px;
+}
+
+.instagram {
+  width: 100px;
+}
+
+.face {
+  width: 100px;
+}
+
+.twiter {
+  width: 100px;
+  align-items: center;
+}
+
+.copy {
+  width: 200px;
+  height: 10px;
+}
+
+.redes {
+  gap: 8px;
+  display: flex;
+  padding: 3px;
+}
+
+.popup-caixa {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+.popup-conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(imagens/mavi.png);
+  border-radius: 10px;
+  width: 505px;
+  height: 321px;
+  color: rgb(247, 245, 243);
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.clique {
+  border-radius: 8px;
+  background-color: rgb(0, 207, 200);
+  font-size: 50px;
+  padding: 10px;
+  font-weight: 400;
+  color: rgb(102, 0, 81);
+  border: none
+}
+
+.segundo {
+  color: rgb(0, 207, 200);
+  font-size: 20px;
+  text-align: center;
+}
+
+.bemvindo {
+  font-size: 25px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.frete {
+  color: black;
+  font-size: 35px;
+  padding: 35px;
+  text-align: center;
+}
+
+.cadastro {
+  
+  border-radius: 100px;
+  padding: 10px 50px;
+  border: none;
+  background-color: #00CFC8;
+  color: rgb(255, 250, 229);
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.mae{
+  align-items: center;
+  text-align: center;
+}

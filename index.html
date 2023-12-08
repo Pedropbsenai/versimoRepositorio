@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <div>
+        <div class="popup-caixa" id="popup">
+            <div class="popup-conteudo">
+                <span class="fechar" onclick="fecharPopup()">&times;</span>
+
+                <p class="bemvindo"> Bem-vindo â Versímo</p>
+                <p class="segundo">Se cadastre agora </p>
+                <div class="mae">
+                    <h3 class="frete">E ganhe frete grátis </h3>
+                    <button class="cadastro"> Cadastre-se</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function abrirPopup() {
+            document.getElementById("popup").style.display = "block"
+        }
+        function fecharPopup() {
+            document.getElementById("popup").style.display = "none"
+        }
+        setTimeout(function () {
+            abrirPopup();
+        }, 3000)
+
+
+
+
+    </script>
+    </div>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="imagens/logocolorida.png" alt="logo">
+            </div>
+            <div class="infos">
+                <ul>
+                    <li> <a href="https://media.tenor.com/m_B50ZygJjMAAAAC/gato-dan%C3%A7ando.gif"><button
+                                class="butao">Sobre nós</button></a></li>
+                    <li><a href="https://media.tenor.com/ZuXnTDxIbjQAAAAC/shocked-shocked-cat.gif"><button
+                                class="butao">Produtos</button></a></li>
+                    <li><a href="https://media.tenor.com/5AeBrrSXk34AAAAd/gato.gif"><button
+                                class="butao">Contato</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="titulo">
+        <h1>Onde estamos?</h1>
+    </div>
+    <section class="contato">
+
+        <div class="form">
+            <h2>Vamos ver se estamos perto de você</h2>
+            <form class="form" action="">
+                <input class="botaonome" type="text" id="name" name="name" placeholder="Nome" />
+                <input class="botaoemail" type="text" id="e-mail" name="e-mail" placeholder="E-mail" />
+                <input class="botaocidade" type="text" id="ciadde" name="ciadade" placeholder="Cidade" />
+                <div>
+                    <input class="botaoenviar" type="submit" value="Enviar" />
+                </div>
+            </form>
+        </div>
+        <div class="maps">
+            <img class="mapa" src="imagens/mapa.png" alt="">
+        </div>
+
+    </section>
+    <footer>
+        <img class="logobranca" src="imagens/logobranca.png" alt="logo preta e branca">
+        <div class="redes">
+            <img class="redes" src="imagens/instagram.png" alt="redes sociais">
+            <img class="inst" src="imagens/face.png" alt="face">
+            <img class="facebook" src="imagens/twiter.png" alt="twiter">
+        </div>
+        <img class="copy" src="imagens/ablubluble.png" alt="copyright's ablubluble">
+    </footer>
+
+
+</body>
+
+</html>
